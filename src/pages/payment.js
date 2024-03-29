@@ -694,7 +694,7 @@ const Payments = () => {
                                                                     style={{ display: "block" }}
                                                                 >
                                                                     <div className="plans">
-                                                                        {/* <div
+                                                                       <div
                                                                             className={`form-check available-method ${activeTab == 2 && 'active'}`}
                                                                             pay-type="phonepe" onClick={() => handleTabClick(2)}
 
@@ -707,7 +707,7 @@ const Payments = () => {
                                                                                 />
                                                                                 <span className="unaviablee">G Pay</span>
                                                                             </label>
-                                                                        </div> */}
+                                                                        </div>
                                                                         <div
                                                                             className={`form-check available-method ${activeTab == 3 && 'active'}`}
                                                                             pay-type="phonepe" onClick={() => handleTabClick(3)}

@@ -90,7 +90,7 @@ const Payments = () => {
     const [data, setdata] = useState({})
     const router = useRouter();
 
-    const [activeTab, setActiveTab] = useState(3);
+    const [activeTab, setActiveTab] = useState(2);
     const handleTabClick = (tabNumber) => {
         setActiveTab(tabNumber);
     };
